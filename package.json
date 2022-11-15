@@ -1,0 +1,14 @@
+{
+  "name": "hollow-knight-graphql",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
