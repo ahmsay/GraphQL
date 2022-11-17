@@ -1,14 +1,19 @@
 {
-  "name": "hollow-knight-graphql",
-  "version": "0.1.0",
+  "name": "server",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.11.1",
-    "graphql": "^16.6.0",
-    "nodemon": "^2.0.20"
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.9.9",
+    "lodash": "^4.17.12"
   }
 }
